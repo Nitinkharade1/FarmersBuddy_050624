@@ -40,7 +40,7 @@ import numpy as np
 
 import re
 
-
+#Load Config.json
 
 with open('config.json', 'r') as c:
     params = json.load(c)["params"]
